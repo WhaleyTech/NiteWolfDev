@@ -1,3 +1,3 @@
 # NiteWolfDev
- Repo for development of NightWolf.Tech website. 
- https://NiteWolf.cf
+ Repo for development of nightwolf.tech website. 
+ https://nitewolf.cf
