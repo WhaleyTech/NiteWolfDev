@@ -1,0 +1,30 @@
+---
+title: About US
+hero: About US
+---
+
+<p class="editor-link" style="text-align: center; position: relative;
+    top: -185px;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+<ul class="staff">
+	{% for person in site.staff_members %}
+		<li>
+			<div class="staff-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
+			<div class="name">{{ person.name }}</div>
+		</li>
+	{% endfor %}
+</ul>
+
+<div class="thirds story-points">
+	<div>
+		<h3 class="editable">Affordable</h3>
+		<p class="editable">Much more wallet friendly for those that don't want to pay an arm and a leg for piece of mind. The local version of our product is subscription free!</p>
+	</div>
+	<div>
+		<h3 class="editable">Security</h3>
+		<p class="editable">Keep an eye on your home or business while your'e away. Or look back to see who was there and what happened while you were gone.</p>
+	</div>
+	<div>
+		<h3 class="editable">Privacy</h3>
+		<p class="editable">Unlike other companies that store your private footage on their servers, (which can put them at risk of being seen by strangers), our system stores all video files locally, keeping you in control of who can access to your data.</p>
+	</div>
+</div>
