@@ -7,5 +7,5 @@
  $ sudo (your linux package manager) install gem
  $ gem install bundler jekyll
  $ bundle install
- $ bundle exec jekyll
+ $ bundle exec jekyll serve
 ~~~
